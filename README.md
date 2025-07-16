@@ -1,5 +1,3 @@
----
-
 ### 📄 `modules/cloudsql-scheduler/README.md`
 
 ````markdown
@@ -151,9 +149,3 @@ scheduler_sa_name = "cloud-scheduler-sql"
 
 Contribuições e melhorias são bem-vindas!
 
-```
-
----
-
-
-```
