@@ -57,8 +57,9 @@ resource "google_cloud_scheduler_job" "sql_scheduler" {
     http_method = "PATCH"
     uri         = "https://sqladmin.googleapis.com/sql/v1beta4/projects/${var.project_id}/instances/${each.value.instance}"
 
-    oidc_token {
+    oauth_token {
       service_account_email = google_service_account.scheduler_sa.email
+      scope = "https://www.googleapis.com/auth/cloud-platform"
     }
 
     headers = {
