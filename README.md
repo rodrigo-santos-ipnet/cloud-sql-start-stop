@@ -1,4 +1,9 @@
-### 📄 `modules/cloudsql-scheduler/README.md`
+### 📄 `Cloud Scheduler Start/Stop
+
+```sh
+terraform init
+terraform apply
+```
 
 ````markdown
 # ☁️ Cloud SQL Scheduler Module (Terraform)
